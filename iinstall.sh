@@ -5,7 +5,7 @@
 # - Ubuntu 19.xx
 # - Ubuntu 20.xx
 # - Ubuntu 21.xx
-# - Ubuntu 22.xx
+# - Ubuntu 24.xx
 # - Debian 11 bullseye
 # - Debian 10 buster
 # - Debian 9 stretch
