@@ -118,7 +118,7 @@ do_configure_os() {
     # We need at least 'make' 'sed' 'diff' 'od' 'install' 'tar' 'base64' 'awk'
 
     case "${ID}-${VERSION_ID}" in
-        ubuntu-19.*|ubuntu-20.*|ubuntu-21.*|ubuntu-24.02*|debian-10|debian-11)
+        ubuntu-19.*|ubuntu-20.*|ubuntu-21.*|ubuntu-24.*|debian-10|debian-11)
             info "Installing required APT packages"
             sudo apt update
             sudo apt install erlang-nox erlang-dev make sed diffutils tar
